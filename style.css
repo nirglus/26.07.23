@@ -106,7 +106,11 @@ body:hover{
 .task-10{
     height: 40vh;
     width: 30vh;
-    background: conic-gradient(red, orange, yellow, rgb(0, 255, 0), aqua, blue, magenta, red);
+    transition: background 5s;
+}
+.task-10:hover{
+    background: conic-gradient(#ff0000, #ffa500, #ffff00, #00ff00, #00ffff,
+     #0000ff, #ff00ff, #ff0000);
 }
 .task-11{
     background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
