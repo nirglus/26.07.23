@@ -1,0 +1,138 @@
+.task-1{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(0, 128, 0);
+    transition: background-color 6s;
+}
+.task-1:hover{
+    background-color: #ffff00;
+}
+.task-2{
+    height: 20vw;
+    width: 20vw;
+    background-color: #0000ff;
+    border-radius: 50%;
+    transition: background-color 8s, border-radius 8s, width 8s;
+}
+.task-2:hover{
+    background-color: #000;
+    border-radius: 0;
+    width: 30vw;
+}
+.task-3{
+    background-color: #ff0000;
+    height: 50px;
+    width: 50px;
+    transition-property: all;
+    transition-duration: 4s;
+}
+.task-3:hover{
+    background-color: #0f0;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+body{
+    background-color: #ffc0cb;
+    transition: background-color 5s;
+}
+body:hover{
+    background-color: #808080;
+}
+.task-5{
+    height:20vh;
+    width:20vw;
+    background-color: #000;
+    /*position: absolute;*/
+    transition: all 3s;   
+}
+.task-5:hover{
+    top:0;
+}
+.task-6{
+    height: 30vh;
+    width:30vw;
+    background-color: #0f0;
+}
+.task-61{
+    height: 30%;
+    width: 30%;
+    background-color: #ffff00;
+    transition: all 5s;
+}
+.task-61:hover{
+    height:30vh;
+    width:30vw;
+}
+.task-7{
+    height:10vh;
+    width:10vw;
+    background-color: #0000ff;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top: -5vh;
+    margin-left: -5vw;
+}
+.task-8{
+    height: 8vh;
+    width: 8vw;
+    border-radius: 50%;
+    background-color: #ffff00;
+    position: sticky;
+    bottom:50%;
+    left:50%;
+}
+.task-9{
+    height: 30vh;
+    width: 30vw;
+    background-color: #fff;
+}
+.task-91{
+    height: 30%;
+    width: 30%;
+    background-color: #ffff00;
+    transition: all 5s;
+    position: relative;
+    top:70%;
+}
+.task-91:hover{
+    height: 30vh;
+    width: 30vw;
+    border-radius: 50%;
+    background-color: #ff0000;
+    top:0;
+}
+.task-10{
+    height: 40vh;
+    width: 30vh;
+    background: conic-gradient(red, orange, yellow, rgb(0, 255, 0), aqua, blue, magenta, red);
+}
+.task-11{
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+    width: 40vh;
+    height:30vh;
+    transition: background-image 5s;
+}
+.task-11:hover{
+    background-image: url("https://images.unsplash.com/photo-1585074623208-c6f4e20957b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVkJTIwd2FsbHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+}
+@keyframes color-change1 {
+    from {background-color: #00ff00;}
+    to {background-color: #eeff00;}
+}
+@keyframes color-change2 {
+    from {background-color: #eeff00;}
+    to {background-color: #ff0000;}
+    
+}
+.task-12{
+    height: 30vh;
+    width: 30vw;
+    
+}
+.task-12:hover{
+    animation-name: color-change1, color-change2;
+    animation-duration: 4s, 3s;
+
+}
